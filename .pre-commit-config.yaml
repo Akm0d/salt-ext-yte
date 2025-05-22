@@ -37,15 +37,6 @@ repos:
         ]
         exclude: src/saltext/yte/version.py
 
-  - repo: https://github.com/asottile/reorder_python_imports
-    rev: v3.14.0
-    hooks:
-      - id: reorder-python-imports
-        args: [
-          --py3-plus,
-        ]
-        exclude: src/saltext/yte/version.py
-
   - repo: https://github.com/psf/black
     rev: 25.1.0
     hooks:
